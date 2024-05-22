@@ -3,8 +3,9 @@
 ## Required Homebrew Packages
 ### Formulae
 * stow
-* neovim
 * antigen
+* starship
+* neovim
 * ripgrep
 * fd
 

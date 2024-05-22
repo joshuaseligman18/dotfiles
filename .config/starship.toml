@@ -1,0 +1,27 @@
+[git_branch]
+format = '[\($branch\)]($style) '
+
+[cmd_duration]
+disabled = true
+
+# Preset from starship for no nerd font
+[battery]
+full_symbol = "• "
+charging_symbol = "⇡ "
+discharging_symbol = "⇣ "
+unknown_symbol = "❓ "
+empty_symbol = "❗ "
+
+[erlang]
+symbol = "ⓔ "
+
+[nodejs]
+symbol = "[⬢](bold green) "
+
+[pulumi]
+symbol = "🧊 "
+
+[typst]
+symbol = "t "
+
+"$schema" = 'https://starship.rs/config-schema.json'

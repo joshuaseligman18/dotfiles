@@ -1,8 +1,7 @@
+format = "$directory$git_branch$git_status$character"
+
 [git_branch]
 format = '[\($branch\)]($style) '
-
-[cmd_duration]
-disabled = true
 
 # Preset from starship for no nerd font
 [battery]

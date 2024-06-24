@@ -15,7 +15,7 @@
 
 ## Setup
 ```bash
-git clone https://github.com/joshuaseligman18/dotfiles ~/dotfiles
+git clone --recursive https://github.com/joshuaseligman18/dotfiles ~/dotfiles
 cd ~/dotfiles
 stow .
 ```

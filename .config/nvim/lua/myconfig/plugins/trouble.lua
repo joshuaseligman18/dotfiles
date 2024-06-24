@@ -1,12 +1,12 @@
 return {
     "folke/trouble.nvim",
-    config = function()
-        require("trouble").setup({
-            icons = false
-        })
-
-        vim.keymap.set("n", "<leader>tt", function()
-            require("trouble").toggle()
-        end)
-    end,
+    opts = {},
+    cmd = "Trouble",
+    keys = {
+        {
+            "<leader>tt",
+            "<cmd>Trouble diagnostics toggle<cr>",
+            desc = "Trouble Diagnostics",
+        },
+    },
 }

@@ -11,7 +11,7 @@
 
 ### Casks
 * alacritty
-* font-fira-code
+* font-fira-code-nerd-font
 
 ## Setup
 ```bash

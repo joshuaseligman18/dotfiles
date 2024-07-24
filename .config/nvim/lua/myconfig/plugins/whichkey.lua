@@ -10,27 +10,26 @@ return {
         defaults = {
             mode = { "n", "v" },
         },
+        icons = {
+            mappings = false,
+        },
     },
     config = function(_, opts)
         local wk = require("which-key")
         wk.setup(opts)
-        wk.register(opts.defaults)
+        wk.add(opts.defaults)
 
-        wk.register({
-            p = {
-                v = "File Explorer",
-                f = "Project Files",
-                s = "Grep Search",
-            }
-        }, { prefix = "<leader>" })
-
-        wk.register({
-            ["<C-p>"] = "Git Files",
-            ["<C-e>"] = "Harpoon Directory",
-            ["<C-h>"] = "Harpoon File #1",
-            ["<C-t>"] = "Harpoon File #2",
-            ["<C-n>"] = "Harpoon File #3",
-            ["<C-s>"] = "Harpoon File #4",
+        wk.add({
+            { "<leader>pv", desc = "File Explorer" },
+            { "<leader>pf", desc = "Project Files" },
+            { "<leader>ps", desc = "Grep Search" },
+            { "<C-p>", desc = "Git Files" },
+            { "<leader>a", desc = "Add to Harpoon" },
+            { "<C-e>", desc = "Harpoon Directory" },
+            { "<C-h>", desc = "Harpoon File #1" },
+            { "<C-t>", desc = "Harpoon File #2" },
+            { "<C-n>", desc = "Harpoon File #3" },
+            { "<C-s>", desc = "Harpoon File #4" },
         })
     end,
 }

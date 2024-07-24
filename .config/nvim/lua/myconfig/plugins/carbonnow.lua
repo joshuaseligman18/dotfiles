@@ -1,11 +1,11 @@
 return {
-    'ellisonleao/carbon-now.nvim',
+    "ellisonleao/carbon-now.nvim",
     lazy = true,
-    cmd = 'CarbonNow',
+    cmd = "CarbonNow",
     opts = {
-        open_cmd = 'open',
+        open_cmd = "open",
         options = {
-            theme = 'vscode',
-        }
+            theme = "vscode",
+        },
     },
 }

@@ -5,9 +5,11 @@ return {
         "MunifTanjim/nui.nvim",
     },
     config = function()
-        local forkInator = require('fork-inator')
+        local forkInator = require("fork-inator")
 
         forkInator.setup()
-        vim.keymap.set('n', '<leader>fi', function() forkInator.toggle() end)
+        vim.keymap.set("n", "<leader>fi", function()
+            forkInator.toggle()
+        end)
     end,
 }

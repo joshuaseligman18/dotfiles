@@ -1,3 +1,5 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
 format = "$directory$git_branch$git_status$character"
 
 [git_branch]
@@ -22,5 +24,3 @@ symbol = "🧊 "
 
 [typst]
 symbol = "t "
-
-"$schema" = 'https://starship.rs/config-schema.json'

@@ -1,3 +1,4 @@
+FPATH="$(brew --prefix)/share/zsh/site-functions/:${FPATH}"
 source $(brew --prefix)/share/antigen/antigen.zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting

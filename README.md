@@ -8,6 +8,8 @@
 * neovim
 * ripgrep
 * fd
+* tmux
+* tpm
 
 ### Casks
 * alacritty

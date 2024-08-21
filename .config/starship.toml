@@ -1,9 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = "$directory$git_branch$git_status$character"
+format = "$python$directory$git_branch$git_status$character"
 
 [git_branch]
 format = '[\($branch\)]($style) '
+
+[python]
+format = '(\($virtualenv\) )($style)'
 
 # Preset from starship for no nerd font
 [battery]

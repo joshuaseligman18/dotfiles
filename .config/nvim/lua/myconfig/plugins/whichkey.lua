@@ -24,12 +24,12 @@ return {
             { "<leader>pf", desc = "Project Files" },
             { "<leader>ps", desc = "Grep Search" },
             { "<C-p>", desc = "Git Files" },
-            { "<leader>a", desc = "Add to Harpoon" },
-            { "<C-e>", desc = "Harpoon Directory" },
-            { "<C-h>", desc = "Harpoon File #1" },
-            { "<C-t>", desc = "Harpoon File #2" },
-            { "<C-n>", desc = "Harpoon File #3" },
-            { "<C-s>", desc = "Harpoon File #4" },
+            { "<leader>ha", desc = "Add to Harpoon" },
+            { "<leader>he", desc = "Harpoon Directory" },
+            { "<leader>hh", desc = "Harpoon File #1" },
+            { "<leader>ht", desc = "Harpoon File #2" },
+            { "<leader>hn", desc = "Harpoon File #3" },
+            { "<leader>hs", desc = "Harpoon File #4" },
         })
     end,
 }

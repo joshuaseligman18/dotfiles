@@ -9,6 +9,8 @@ brew install ripgrep
 brew install neovim
 brew install starship
 brew install stow
+brew install tmux
+brew install tpm
 
 brew install --cask aerospace
 brew install --cask ghostty

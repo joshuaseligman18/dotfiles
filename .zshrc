@@ -14,3 +14,7 @@ alias vim="nvim"
 alias ls="ls --color"
 alias ll="ls -lh"
 alias la="ls -a"
+
+if [ -f "$HOME/.zshrc.local" ]; then
+    source "$HOME/.zshrc.local"
+fi
